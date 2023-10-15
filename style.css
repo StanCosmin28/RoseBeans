@@ -15,6 +15,7 @@ body {
   font-family: myFont;
   background-color: #02090a;
   color: whitesmoke;
+overflow: hidden;
 }
 h2 {
   font-size: 2rem;
