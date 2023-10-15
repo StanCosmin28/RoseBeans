@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+overflow: hidden;
 }
 html {
   overflow-x: hidden; /* Disable The Posibility of Scrolling on x axis */
@@ -15,7 +16,6 @@ body {
   font-family: myFont;
   background-color: #02090a;
   color: whitesmoke;
-overflow: hidden;
 }
 h2 {
   font-size: 2rem;
