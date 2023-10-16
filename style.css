@@ -666,3 +666,7 @@ h1 {
   }
   /* mail box section */
 }
+/* settings to prevent overflow from animations */
+header {
+  overflow: hidden;
+}
