@@ -27,10 +27,10 @@ gsap.fromTo("#co", { y: -1000 }, { y: 0, duration: 1.5, delay: 0.5 }, "<");
 
 gsap.fromTo(
   "#flwapp",
-  { rotate: "20deg" },
+  { rotate: "5deg" },
   {
-    rotate: "-10deg",
-    duration: 1,
+    rotate: "-5deg",
+    duration: 1.2,
     yoyo: true,
     repeat: -1,
     delay: 0.3,
