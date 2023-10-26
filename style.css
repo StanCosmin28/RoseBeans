@@ -180,7 +180,7 @@ button {
 }
 /* about section || am intrat in sectiunea de main */
 .about-section {
-  width: 85vw;
+  width: 90vw;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -205,6 +205,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
 .take-a-look-title {
   margin-bottom: 30px;
 }
@@ -231,6 +232,7 @@ button {
   transition: 0.8s;
   filter: drop-shadow(5px 5px 5px black);
 }
+
 .tak-photo > img:hover {
   transform: scale(115%);
   transition: 0.8s;
@@ -245,6 +247,7 @@ button {
 .ef > img:hover {
   z-index: 10;
 }
+
 /* others opinions section || tot in header || trebuie preluate review urile din google bussiness*/
 .opinions {
   background-color: transparent;
@@ -256,10 +259,10 @@ button {
   margin: 0 auto;
   text-align: center;
 }
-
 .opinions-review {
   margin-bottom: 30px;
 }
+
 /* de aici incepe partea de map || let's meet */
 .lets-meet {
   background-color: transparent;
@@ -297,7 +300,7 @@ button {
   font-weight: 300;
   min-width: 300px;
   width: auto;
-  max-width: 50vw;
+  max-width: 60vw;
   text-align: center;
 }
 .socials {
@@ -445,7 +448,7 @@ button {
   }
   /* opinions */
   .opinions {
-    flex-direction: row;
+    flex-direction: column;
     text-align: start;
     width: 85vw;
     padding: 20px;
@@ -722,4 +725,3 @@ td {
 .lets-meet-title {
   padding: 30px;
 }
-/* action button */
